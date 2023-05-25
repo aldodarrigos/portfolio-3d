@@ -20,15 +20,30 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import nest from "./tech/nest.svg";
+import next from "./tech/next.png";
+import laravel from "./tech/laravel.png";
+import elastic from "./tech/elastic.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import rem from "./company/rem.svg";
+import icpna from "./company/icpna.svg";
+import cibertec from "./company/ciber.png";
+import avansys from "./company/avansys.jpeg";
+import whiz from "./company/whiz2.svg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import trello from "./trello.png";
+import pokemon from "./pokemon.png";
+import socialProof from "./social-proof.png";
+import coronado from "./coronado.png";
+import deslab from "./deslab.png";
+import citizum from "./citizum.png";
 
 export {
   logo,
@@ -52,6 +67,10 @@ export {
   tailwind,
   typescript,
   threejs,
+  nest,
+  next,
+  laravel,
+  elastic,
   meta,
   shopify,
   starbucks,
@@ -59,4 +78,15 @@ export {
   carrent,
   jobit,
   tripguide,
+  rem,
+  icpna,
+  cibertec,
+  avansys,
+  whiz,
+  trello,
+  pokemon,
+  socialProof,
+  coronado,
+  deslab,
+  citizum,
 };

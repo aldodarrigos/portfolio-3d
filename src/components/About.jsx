@@ -32,11 +32,14 @@ const About = () => {
   return (
     <>
       <motion.div>
-        <p className={styles.sectionSubText}> Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <p className={styles.sectionSubText}> Introducción</p>
+        <h2 className={styles.sectionHeadText}>Acerca de mi.</h2>
       </motion.div>
-      <motion.p variants={fadeIn('','',0.1,1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime impedit, possimus, quas laborum et eos quaerat recusandae reiciendis, culpa optio omnis. Labore reprehenderit quaerat commodi, aliquam ea inventore qui explicabo.
+      <motion.p variants={fadeIn('','',0.1,1)} className='mt-4 text-secondary text-[17px] max-w-4xl leading-[30px]'>
+      Soy un desarrollador de software con experiencia en Typescript y PHP,
+       y especializado en frameworks como Next.js (React), NestJS (Typescript) y Laravel (PHP).
+      Tengo habilidades sólidas para trabajar en conjunto y aprendo rápidamente, colaborando estrechamente con los clientes para crear soluciones eficientes, escalables y amigables para el usuario que resuelvan problemas del mundo real.
+       <br /> <br /><b> ¡Trabajemos juntos para darle vida a tus ideas!</b>
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

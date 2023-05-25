@@ -8,21 +8,27 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
-  mongodb,
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
   tripguide,
-  threejs,
+  rem,
+  icpna,
+  cibertec,
+  avansys,
+  whiz,
+  nest,
+  next,
+  laravel,
+  elastic,
+  trello,
+  pokemon,
+  socialProof,
+  coronado,
+  citizum,
+  deslab,
 } from "../assets";
 
 export const navLinks = [
@@ -42,19 +48,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Frontend Developer",
     icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: mobile,
   },
   {
     title: "Backend Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "SEO",
+    icon: mobile,
+  },
+  {
+    title: "Freelancer",
     icon: creator,
   },
 ];
@@ -81,10 +87,6 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
@@ -92,79 +94,95 @@ const technologies = [
     name: "Node JS",
     icon: nodejs,
   },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+
   {
     name: "git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
-  },
-  {
     name: "docker",
     icon: docker,
+  },
+  {
+    name: "nestjs",
+    icon: nest,
+  },
+  {
+    name: "nextjs",
+    icon: next,
+  },
+  {
+    name: "laravel",
+    icon: laravel,
+  },
+  {
+    name: "elasticsearch",
+    icon: elastic,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Fullstack Javascript",
+    company_name: "Estudio Rodrigo, Elías & Medrano",
+    icon: rem,
+    iconBg: "#b30100",
+    date: "Enero 2023 - Actualidad",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Desarrollo y mantenimiento de aplicaciones web usando Next.js para el frontend y NestJS para el backend.",
+      "Creación de componentes reutilizables para el equipo integrado con Material UI.",
+      "SQL Server como motor de base de datos pero con la tecnología ORM de Prisma.",
+      "Participando en la toma de requerimientos y cumpliendo el deadline de cada proyecto.",
     ],
   },
   {
     title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    company_name: "Instituto Cultural Peruano Norteamericano",
+    icon: icpna,
+    iconBg: "#E6DEDD",
+    date: "Feb. 2021 - Ene. 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Desarrollo y mantenimiento de aplicaciones web usando Laravel como framework.",
+      "Integración de plataforma interna con CRM Dynamics 356 (Microsoft).",
+      "Mysql como motor de base de datos pero con la tecnología ORM de Eloquent.",
+      "Participando en la toma de requerimientos y cumpliendo el deadline de cada proyecto.",
+    ],
+  },
+  {
+    title: "Web Developer",
+    company_name: "Cibertec",
+    icon: cibertec,
+    iconBg: "#fff",
+    date: "Dic. 2018 - Ene. 2021",
+    points: [
+      "Desarrollo y mantenimiento de aplicaciones web usando Laravel como framework y Bootstrap 4 para el layout.",
+      "Integración de Elastic Search como motor de busqueda optimizada",
+      "Mysql como motor de base de datos pero con la tecnología ORM de Eloquent.",
+      "Participando en la toma de requerimientos y cumpliendo el deadline de cada proyecto.",
     ],
   },
   {
     title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    company_name: "Instituto Avansys",
+    icon: avansys,
+    iconBg: "#fff",
+    date: "Oct 2017 - Dic. 2018",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Desarrollo y mantenimiento de Zoho CRM - Zoho One.",
+      "Creación de landings web usando PHP como lenguaje y Bootstrap para el layout.",
+      "Mysql como motor de base de datos.",
+    ],
+  },
+  {
+    title: "Full stack Developer",
+    company_name: "Whiz",
+    icon: whiz,
+    iconBg: "#b30100",
+    date: "Ene. 2017 - Oct. 2017",
+    points: [
+      "Desarrollo y mantenimiento de aplicaciones web usando Laravel como framework",
+      "Creación de Project Managment System (PMS) ayudando a gestionar de manera efectiva el trabajo del cliente.",
+      "Mysql como motor de base de datos.",
     ],
   },
 ];
@@ -198,7 +216,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Trello Clon",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
@@ -211,15 +229,20 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "docker",
         color: "pink-text-gradient",
       },
+      {
+        name: "materialui",
+        color: "blue-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: trello,
+    source_code_link:
+      "https://github.com/aldodarrigos/clon-de-trello-open-jirah",
   },
   {
-    name: "Job IT",
+    name: "Pokemon Interface",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
@@ -228,7 +251,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "nextjs",
         color: "green-text-gradient",
       },
       {
@@ -236,20 +259,83 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: pokemon,
+    source_code_link: "https://pokemon-interface-zeta.vercel.app/",
   },
   {
-    name: "Trip Guide",
+    name: "Social Proof",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
       {
-        name: "nextjs",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "figma",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: socialProof,
+    source_code_link: "https://fm-social-proof-one.vercel.app/",
+  },
+  {
+    name: "Intranet Coronado",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "exportexcel-php",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "laravel",
+        color: "green-text-gradient",
+      },
+      {
+        name: "exportpdf-php",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: coronado,
+    source_code_link: "#",
+  },
+  {
+    name: "Deslab",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "wordpress",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "flexbox",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: deslab,
+    source_code_link: "https://deslab.com.pe/",
+  },
+  {
+    name: "Citizum",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "wordpress",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "cms",
         color: "green-text-gradient",
       },
       {
@@ -257,8 +343,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: citizum,
+    source_code_link: "https://citizum.com/",
   },
 ];
 

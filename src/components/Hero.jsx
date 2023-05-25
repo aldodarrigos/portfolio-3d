@@ -1,5 +1,4 @@
 import { motion } from 'framer-motion'
-import React from 'react'
 import { styles } from '../styles'
 import { ComputersCanvas } from './canvas'
 
@@ -19,9 +18,9 @@ const Hero = () => {
           violet-gradient' />
         </div>
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className='text-[#915eff]'>Aldo</span></h1>
+          <h1 className={`${styles.heroHeadText} text-white`}>👋🏻, soy <span className='text-[#915eff]'>Aldo</span></h1>
           <p className={`${styles.heroSubText} mt-2  text-white-100`}>
-            I develop 3D visuals, user <br className='sm:block hidden' /> interfaces and web applications
+            Desarrollo aplicaciones web <br className='sm:block hidden' /> centradas en la experiencia <br /> del usuario final.
           </p>
         </div>
       </div>

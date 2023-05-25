@@ -33,16 +33,20 @@ import {
 
 export const navLinks = [
   {
-    id: "about",
-    title: "About",
+    id: "acerca",
+    title: "Acerca",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "experiencia",
+    title: "Experiencia Laboral",
   },
   {
-    id: "contact",
-    title: "Contact",
+    id: "proyectos",
+    title: "Proyectos",
+  },
+  {
+    id: "contacto",
+    title: "Contacto",
   },
 ];
 
@@ -218,7 +222,7 @@ const projects = [
   {
     name: "Trello Clon",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Aplicación web inspirada en la aplicación Trello. Fue realizado con NextJS, MongoDb y Docker",
     tags: [
       {
         name: "react",
@@ -244,7 +248,7 @@ const projects = [
   {
     name: "Pokemon Interface",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Aplicación web que muestra a todos los pokemones, además de guardar a tus pokemones favoritos. Se realizó con NextJS y PokeApi",
     tags: [
       {
         name: "react",
@@ -265,7 +269,7 @@ const projects = [
   {
     name: "Social Proof",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Landing page desarrollada con html y css, 100% responsive. Esto fue un proyecto de práctica de maquetación responsive.",
     tags: [
       {
         name: "html",
@@ -286,7 +290,7 @@ const projects = [
   {
     name: "Intranet Coronado",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Plataforma que ayudó a mi cliente entregar certificados de los cursos que dicta la empresa. Se eligió el framework Laravel.",
     tags: [
       {
         name: "exportexcel-php",
@@ -307,7 +311,7 @@ const projects = [
   {
     name: "Deslab",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Página web responsive para cliente del sector farmacéutico, hecha en wordpress a medida en base al diseño propuesto.",
     tags: [
       {
         name: "wordpress",
@@ -328,7 +332,7 @@ const projects = [
   {
     name: "Citizum",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Página web responsive para cliente del sector inmobiliario, hecha en wordpress a medida en base al diseño propuesto.",
     tags: [
       {
         name: "wordpress",

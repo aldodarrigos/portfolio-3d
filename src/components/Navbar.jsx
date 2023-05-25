@@ -19,10 +19,9 @@ const Navbar = () => {
           }}
         >
           <img src={logo} alt="logo" className='w-9 h-9 object-contain' />
-          <p className="text-white text-[10px] font-bold cursor-pointer flex">
+          <p className="text-white text-[20px] font-bold cursor-pointer flex">
             Aldo D&apos;Arrigo &nbsp;
             <span className='sm:block hidden'>
-             | Web Developer
             </span>
           </p>
         </Link>

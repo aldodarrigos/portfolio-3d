@@ -1,12 +1,12 @@
 import React from "react";
 import {Tilt} from "react-tilt";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
-import { fadeIn, textVariant } from "../utils/motion";
+// import { fadeIn, textVariant } from "../utils/motion";
 
 const ProjectCard = ({
   index,
@@ -17,7 +17,6 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
         options={{
           max: 45,
@@ -63,26 +62,24 @@ const ProjectCard = ({
           ))}
         </div>
       </Tilt>
-    </motion.div>
   );
 };
 
 const Works = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <div >
         <p className={`${styles.sectionSubText} `}>Mi trabajo</p>
         <h2 className={`${styles.sectionHeadText}`}>Proyectos.</h2>
-      </motion.div>
+      </div>
 
       <div className='w-full flex'>
-        <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
+        <div
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
           
       A través de los siguientes proyectos, puedo exhibir mis habilidades y experiencia mediante ejemplos prácticos de mi trabajo. Cada proyecto está brevemente descrito e incluye enlaces a repositorios de código y demos en vivo. Estos ejemplos reflejan mi capacidad para abordar problemas complejos, trabajar con tecnologías diversas y administrar proyectos de forma eficiente.
-        </motion.p>
+        </div>
       </div>
 
       <div className='mt-20 flex flex-wrap gap-7'>
